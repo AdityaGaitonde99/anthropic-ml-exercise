@@ -53,7 +53,7 @@ Each part is organized into a dedicated directory and can be reviewed independen
 `│   └── improved_code.py           # Improved implementation`  
 `│`  
 `└── bonus_scaling_laws/`  
-    `└── scaling_analysis.ipynb     # Optional bonus analysis`
+       `└── scaling_analysis.ipynb     # Optional bonus analysis`
 
 ---
 
