@@ -1,0 +1,39 @@
+project:
+  name: sst2_sentiment_attention
+  seed: 42
+  output_dir: outputs
+
+data:
+  hf_dataset: stanfordnlp/sst2
+  text_col: sentence
+  label_col: label
+  train_dev_split: 0.1
+  hf_test_split: validation
+
+model:
+  pretrained_name: distilbert-base-uncased
+  max_seq_length: 128
+  dropout: 0.1
+  pooling: cls
+
+
+train:
+  batch_size: 32
+  eval_batch_size: 128
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  num_epochs: 3
+  warmup_ratio: 0.06
+  gradient_clip: 1.0
+  early_stopping_patience: 2
+  num_workers: 0
+  label_smoothing: 0
+  save_checkpoints: true
+  save_infer_checkpoint: true
+
+attention:
+  examples_per_tag: 2
+  tags:
+    - failure
+    - negation
+    - contrast

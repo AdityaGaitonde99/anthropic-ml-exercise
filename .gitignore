@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs & large artifacts
+part1_implementation/outputs/
+*.pt
+*.pth
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
