@@ -26,34 +26,31 @@ Each part is organized into a dedicated directory and can be reviewed independen
 
 ## **Repository Structure**
 
-`anthropic-ml-exercise/`  
-`├── README.md`  
-`├── requirements.txt`  
-`│`  
-`├── part1_implementation/          # Part 1: model, training, evaluation, outputs`  
-`│   ├── model.py`  
-`│   ├── train.py`  
-`│   ├── evaluate.py`  
-`│   ├── data.py`  
-`│   ├── viz.py`  
-`│   ├── ablation.py`  
-`│   ├── config.yaml`  
-`│   ├── config_final.yaml`  
-`│   ├── README.md                  # Part 1 execution & reproduction guide`  
-`│   ├── report.md                  # Part 1 technical report`  
-`│   └── outputs/                   # Metrics, figures, checkpoints`  
-`│       ├── final_run/`  
-`│       └── ablations/`  
-`│`  
-`├── part2_research_analysis/`  
-`│   └── technical_document.pdf     # Part 2 submission`  
-`│`  
-`├── part3_code_review/`  
-`│   ├── review.md                  # Code review and feedback`  
-`│   └── improved_code.py           # Improved implementation`  
-`│`  
-`└── bonus_scaling_laws/`  
-       `└── scaling_analysis.ipynb     # Optional bonus analysis`
+anthropic-ml-exercise/
+├── README.md
+├── requirements.txt
+├── part1_implementation/
+│   ├── model.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── data.py
+│   ├── viz.py
+│   ├── ablation.py
+│   ├── config.yaml
+│   ├── config_final.yaml
+│   ├── README.md
+│   ├── report.md
+│   └── outputs/
+│       ├── final_run/
+│       └── ablations/
+├── part2_research_analysis/
+│   └── technical_document.pdf
+├── part3_code_review/
+│   ├── review.md
+│   └── improved_code.py
+└── bonus_scaling_laws/
+    └── scaling_analysis.ipynb
+
 
 ---
 
@@ -116,7 +113,7 @@ This notebook explores empirical scaling laws and uses them to reason about opti
 
 Due to GitHub file size limits, trained model checkpoints and large output artifacts are not stored directly in this repository.
 
-Full archive (Part 1 outputs + checkpoints, plus Parts 2–3 and bonus): 
+Full archive (Part 1 outputs + checkpoints, plus Parts 2–3 and bonus): [https://drive.google.com/file/d/1SuRpsahK3vmro9wARD7jyzk1O5pUWkqX/view?usp=sharing]
 
 Thank you for taking the time to review this submission.  
  I’m happy to clarify any details or discuss design decisions further.
