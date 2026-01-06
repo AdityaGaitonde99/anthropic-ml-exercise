@@ -112,7 +112,13 @@ This notebook explores empirical scaling laws and uses them to reason about opti
 * **Bonus** analysis is self-contained within the provided notebook.
 
 ---
+## Full Submission Archive (Includes Checkpoints)
+
+Due to GitHub file size limits, trained model checkpoints and large output artifacts are not stored directly in this repository.
+
+Full archive (Part 1 outputs + checkpoints, plus Parts 2–3 and bonus): 
 
 Thank you for taking the time to review this submission.  
  I’m happy to clarify any details or discuss design decisions further.
+ 
 
