@@ -25,6 +25,7 @@ Each part is organized into a dedicated directory and can be reviewed independen
 ---
 
 ## **Repository Structure**
+```text
 
 anthropic-ml-exercise/
 ├── README.md
@@ -51,7 +52,7 @@ anthropic-ml-exercise/
 └── bonus_scaling_laws/
     └── scaling_analysis.ipynb
 
-
+```
 ---
 
 ## **How to Review Each Part**
